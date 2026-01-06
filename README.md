@@ -1,4 +1,4 @@
-# Learmond Flutter (meta package)
+# Learmond Flutter
 
 A convenience meta-package from The Learmond Corporation that aggregates and
 re-exports the company's Flutter SDK modules for easy consumption. Use this
