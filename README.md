@@ -1,39 +1,54 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Learmond Flutter (meta package)
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A convenience meta-package from The Learmond Corporation that aggregates and
+re-exports the company's Flutter SDK modules for easy consumption. Use this
+package to quickly add Learmond payment widgets and helpers to your Flutter
+app.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Single import surface that re-exports all core Learmond Flutter APIs
+- Includes Apple Pay, Google Pay, card, and bank button integrations
+- Links to generated API docs for detailed usage examples
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the package to your `pubspec.yaml` and run `flutter pub get`:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  learmond_flutter: ^0.0.1
 ```
 
-## Additional information
+## Quick start
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Import the package and use the exported SDK classes in your app:
+
+```dart
+import 'package:learmond_flutter/learmond_flutter.dart';
+
+// Create and use the SDK as appropriate for your integration.
+final sdk = Learmond();
+// Example: await sdk.presentCardButton(...);
+```
+
+See the API reference in the `doc/api` folder for class and method details.
+
+## Documentation
+
+- API docs: `doc/api` (generated documentation included in this repository)
+- Example usage may be added to an `/example` directory
+
+## Contributing
+
+Contributions and issues are welcome. Please open issues or pull requests
+against this repository and follow the existing code/style patterns.
+
+## License
+
+This project is licensed under the MIT License — see the `LICENSE` file for
+details.
+
+## Author
+
+The Learmond Corporation
