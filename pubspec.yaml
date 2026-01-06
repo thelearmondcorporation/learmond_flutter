@@ -1,7 +1,9 @@
 name: learmond_flutter
 description: "The Learmond Corporation's offical flutter package."
 version: 0.0.1
-homepage:
+repository: https://github.com/thelearmondcorporation/learmond_flutter.git
+homepage: https://github.com/thelearmondcorporation/learmond_flutter
+
 
 environment:
   sdk: ^3.10.4
@@ -13,8 +15,8 @@ dependencies:
   paysheet: ^2.0.0+4
   lpe_sdk: ^4.1.0+8
   lpe: ^0.0.12
-  lpe_with_source: 0.0.2+5
-  source_sdk: any
+  lpe_with_source: ^0.0.2+5
+  source_sdk: ^1.0.0+3
 
 dev_dependencies:
   flutter_test:
