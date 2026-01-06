@@ -1,6 +1,6 @@
 name: learmond_flutter
 description: "The Learmond Corporation's offical flutter package."
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/thelearmondcorporation/learmond_flutter.git
 homepage: https://github.com/thelearmondcorporation/learmond_flutter
 
